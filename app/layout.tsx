@@ -36,7 +36,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${plus_jakarta.className} relative  bg-black-primary bg-fixed bg-cover`}
+        className={`${plus_jakarta.className} relative  bg-white/70 bg-fixed bg-cover`}
       >
         {/* Facebook Pixel */}
         <Script

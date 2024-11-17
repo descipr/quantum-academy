@@ -8,7 +8,7 @@ const DesciprSection = () => {
         {DesciprDiffernce.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col mx-auto items-center justify-center space-y-2"
+            className="flex flex-col mx-auto items-center justify-center space-y-2 "
           >
             <Image
               src={item.src}
@@ -16,7 +16,7 @@ const DesciprSection = () => {
               className="w-12 h-12 md:w-16 md:h-16"
               priority
             />
-            <p className="text-sm sm:text-base md:text-md text-white font-light font-Plus-jakarta">
+            <p className="text-sm sm:text-base md:text-md text-black-primary font-light font-Plus-jakarta">
               {item.title}
             </p>
           </div>

@@ -23,7 +23,7 @@ const LearnSection = ({ learnings }: LearningProps) => {
               className="w-12 h-12 sm:w-16 sm:h-16"
               priority
             />
-            <p className="text-xs sm:text-sm md:text-md text-white font-light font-Plus-jakarta text-center">
+            <p className="text-xs sm:text-sm md:text-md text-black-primary font-light font-Plus-jakarta text-center">
               {item.title}
             </p>
           </div>

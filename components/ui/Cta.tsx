@@ -54,10 +54,10 @@ const Cta = () => {
   return (
     <section className="section-style items-center">
       <div className="flex flex-col items-center justify-center space-y-1 text-center">
-        <h2 className="text-2xl md:text-5xl font-bold text-white">
+        <h2 className="text-2xl md:text-5xl font-bold text-black-primary">
           Ready to <span className="text-green-primary">Take the Next Step</span>
         </h2>
-        <h2 className="text-2xl md:text-5xl font-bold text-white">
+        <h2 className="text-2xl md:text-5xl font-bold text-black-primary">
           in Your AI Journey?
         </h2>
       </div>
@@ -82,7 +82,7 @@ const Cta = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-10">
           <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
             <h3 className="text-2xl font-bold mb-4">Book Your Free 30-Minute Career Guidance Session</h3>
             <form onSubmit={handleSubmit}>

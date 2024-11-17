@@ -86,7 +86,7 @@ const Learning = ({ courseDetails, pdfurl }: LearningProps) => {
 
   return (
     <section className="section-style gap-6 sm:gap-0 ">
-      <h2 className="heading text-white">
+      <h2 className="heading text-black-primary">
         What Will<span className="text-green-primary"> You Learn</span>
       </h2>
 

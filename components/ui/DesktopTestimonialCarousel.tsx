@@ -18,7 +18,7 @@ const DesktopTestimonialCarousel: React.FC = () => {
   };
 
   return (
-    <div className="text-white">
+    <div className="text-white ">
       <div className="container mx-auto text-center flex flex-col">
         <div className="relative overflow-hidden">
           <div
@@ -45,7 +45,7 @@ const DesktopTestimonialCarousel: React.FC = () => {
         <div className="mt-8 flex justify-center items-center space-x-4">
           <button
             onClick={prevSlide}
-            className="bg-white p-2 rounded-full shadow-md"
+            className="bg-gray-400/50 p-2 rounded-full shadow-md"
           >
             <svg
               className="h-6 w-6 text-gray-700"
@@ -63,7 +63,7 @@ const DesktopTestimonialCarousel: React.FC = () => {
           </button>
           <button
             onClick={nextSlide}
-            className="bg-white p-2 rounded-full shadow-md"
+            className="bg-gray-400/50 p-2 rounded-full shadow-md"
           >
             <svg
               className="h-6 w-6 text-gray-700"

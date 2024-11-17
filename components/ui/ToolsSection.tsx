@@ -9,7 +9,7 @@ const ToolsSection = ({ tools }: LearningProps) => {
   return (
     <div className="container mx-auto px-4 py-6 flex flex-col gap-12 justify-center items-center">
       <div className="flex flex-col items-center space-y-1">
-        <h2 className="text-white heading text-center text-2xl sm:text-4xl font-bold">
+        <h2 className="text-black-primary heading text-center text-2xl sm:text-4xl font-bold">
         Tools You  <span className="text-green-primary">Will Learn</span> 
         </h2>
       </div>
@@ -27,7 +27,7 @@ const ToolsSection = ({ tools }: LearningProps) => {
               className="w-12 h-12 sm:w-16 sm:h-16"
               priority
             />
-            <p className="text-xs sm:text-sm md:text-md text-white font-light font-Plus-jakarta text-center">
+            <p className="text-xs sm:text-sm md:text-md text-black-primary font-light font-Plus-jakarta text-center">
               {item.title}
             </p>
           </div>

@@ -4,11 +4,11 @@ import React from "react";
 
 const Fellowship: React.FC = () => {
   return (
-    <div className="flex flex-col text-left text-white space-y-4">
+    <div className="flex flex-col text-left text-black-primary space-y-4">
       <h3 className="font-normal sm:font-semibold text-md">Fellowships</h3>
       <ul className="flex flex-col space-y-2">
         {fellowshipList.map((item, index) => (
-          <li key={index} className="text-xs font-light">
+          <li key={index} className="text-xs font-normal">
             <Link href={item.link}>{item.label}</Link>
           </li>
         ))}

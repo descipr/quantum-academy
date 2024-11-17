@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col items-center">
           <h1
             ref={heading1Ref}
-            className="text-3xl md:text-7xl font-bold text-center text-white"
+            className="text-3xl md:text-7xl font-bold text-center text-black-primary"
           >
             Become a{" "}
             <span className="text-green-primary font-Plus-jakarta">
@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
         </div>
         <p
           ref={paragraphRef}
-          className="text-sm md:text-lg text-white text-center font-normal"
+          className="text-sm md:text-lg text-black-primary text-center font-normal"
         >
           Fast-track your career with live Cohort-based{" "}
           <span className="text-green-primary font-medium">

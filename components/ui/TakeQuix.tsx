@@ -18,14 +18,14 @@ const TakeQuiz = () => {
 
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between rounded-xl space-y-4 md:space-y-0">
         <div className="flex flex-col items-start justify-center rounded-xl space-y-2 px-2">
-          <p className="text-white font-Plus-jakarta text-3xl font-medium cursor-pointer">
+          <p className="text-black-primary font-Plus-jakarta text-3xl font-medium cursor-pointer">
             Still confused?
           </p>
           <Link
             href="https://docs.google.com/forms/d/e/1FAIpQLSek560yqpVAo_JLnyf8BOw88AN4fdUC4XQ0qIQo83VajddFXw/viewform"
             className="flex items-center space-x-1"
           >
-            <p className="text-white font-Plus-jakarta text-xl font-medium cursor-pointer">
+            <p className="text-black-primary font-Plus-jakarta text-xl font-medium cursor-pointer">
               Take the Descrip Quiz
             </p>
             <Image

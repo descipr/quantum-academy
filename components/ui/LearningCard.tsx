@@ -7,7 +7,7 @@ interface LearningCardProps {
 
 const LearningCard: React.FC<LearningCardProps> = ({ data }) => {
   return (
-    <div className="relative bg-white rounded-xl shadow-md flex flex-col justify-between space-y-4 max-w-xs md:max-w-sm w-full mx-auto p-4 h-full">
+    <div className="relative bg-white rounded-xl shadow-md flex flex-col justify-between space-y-4 max-w-xs md:max-w-sm w-full mx-auto p-4 h-full border-gray-500 border-[1px]">
       <div className="absolute top-2 left-4 transform -translate-y-1/2 bg-green-secondary rounded-lg px-2 py-1 z-20">
         <p className="text-white font-semibold text-sm md:text-base">
           {data.time}

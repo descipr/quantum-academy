@@ -10,7 +10,7 @@ const MentorsCardSection = () => {
           <Link href={mentor.link}>
             <div
               key={index}
-              className="relative w-full pb-1/1 overflow-hidden rounded-lg"
+              className="relative w-full pb-1/1 overflow-hidden rounded-lg border-black-primary/50 border-[1px]"
             >
               <Image
                 src={mentor.src}

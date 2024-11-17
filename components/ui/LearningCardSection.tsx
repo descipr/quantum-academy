@@ -54,7 +54,7 @@ const LearningCardSection = ({courseDetails} : LearningProps) => {
             {courseDetails.map((data, index) => (
               <div
                 key={index}
-                className=" w-full px-4 flex-shrink-0"
+                className=" w-full px-4 flex-shrink-0 "
                 style={{
                   maxWidth: `${100 / learningCardArrayPerPage}%`,
                 }}
@@ -67,7 +67,7 @@ const LearningCardSection = ({courseDetails} : LearningProps) => {
         <div className="mt-8 flex justify-center items-center space-x-4">
           <button
             onClick={prevSlide}
-            className="bg-white p-2 rounded-full shadow-md"
+            className="bg-gray-500/50  p-2 rounded-full shadow-md"
           >
             <svg
               className="h-6 w-6 text-gray-700"
@@ -85,7 +85,7 @@ const LearningCardSection = ({courseDetails} : LearningProps) => {
           </button>
           <button
             onClick={nextSlide}
-            className="bg-white p-2 rounded-full shadow-md"
+            className="bg-gray-500/50  p-2 rounded-full shadow-md"
           >
             <svg
               className="h-6 w-6 text-gray-700"

@@ -4,7 +4,7 @@ const DesciprDifference = () => {
   return (
     <section className="section-style">
       <div className="flex flex-col items-center space-y-1">
-        <h2 className="text-white heading">
+        <h2 className="text-black-primary heading">
           Experience the <span className="text-green-primary">Descipr Difference</span> 
         </h2>
       </div>
