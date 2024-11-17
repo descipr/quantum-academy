@@ -1227,6 +1227,43 @@ interface Insight {
   description: string;
 }
 
-
+export const workshopData: LearningCardData[] = [
+  {
+    id: 1,
+    title: "Overview of Different Career Paths in Data Science/AI",
+    listItems: [
+      "Not everyone with the title of Data Scientist performs the same role. Make an informed decision about the one you would enjoy the most.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Frameworks for Selecting the Right Data Science Project",
+    listItems: [
+      "Not all projects hold the same value. Learn the right framework to identify the best ones for your target industries or companies.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Essential Elements of an Effective Data Science Resume",
+    listItems: [
+      "Craft a profile that captures the attention of hiring managers and helps you secure the right opportunity.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Data Science Interview Stages and Preparation Strategies",
+    listItems: [
+      "Learn what to expect from each interview round for top data science positions and how to prepare effectively.",
+    ],
+  },
+  {
+    id: 5,
+    title:
+      "How to approach Business Case Study Round – Live Solution Demonstration",
+    listItems: [
+      "Discover how to confidently tackle case studies using a 7-step framework and steer clear of common pitfalls.",
+    ],
+  },
+];
 
 
