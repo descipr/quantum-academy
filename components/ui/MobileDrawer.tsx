@@ -19,12 +19,12 @@ const MobileDrawer: React.FC<MobileDrawerProps> = ({ isOpen, onClose }) => {
         <FontAwesomeIcon className="text-4xl" icon={faXmark} />
       </button>
       <ul className="flex flex-col justify-center items-center space-y-4 z-10">
-        <li className="text-xl hover:text-gray-500 font-Plus-jakarta">
+        <li className="text-xl hover:text-blue-acadamyBlue font-Plus-jakarta">
           <Link href="/#fellowship" onClick={onClose}>
             Fellowship
           </Link>
         </li>
-        <li className="text-xl hover:text-gray-500  font-Plus-jakarta">
+        <li className="text-xl hover:text-blue-acadamyBlue  font-Plus-jakarta">
           <Link href="/#reviews" onClick={onClose}>
             Reviews
           </Link>

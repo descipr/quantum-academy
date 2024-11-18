@@ -23,7 +23,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
     : `${testimonial.slice(0, 150)}`;
 
   return (
-    <div className="bg-white border-gray-500 border-[1px] rounded-xl shadow-md flex flex-col justify-between space-y-4 max-w-xs md:max-w-sm md:w-full mx-auto p-3 h-full text-center mt-4 sm:mt-0">
+    <div className="bg-white border-blue-teal border-[1px] rounded-xl shadow-md flex flex-col justify-between space-y-4 max-w-xs md:max-w-sm md:w-full mx-auto p-3 h-full text-center mt-4 sm:mt-0">
       <div className="flex items-center">
         <p className="text-black-Textsecondary text-sm md:text-lg font-Plus-jakarta font-normal text-left py-2">
           {displayedTestimonial}

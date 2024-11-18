@@ -23,6 +23,8 @@ const config: Config = {
           button: "#ACC2FA",
           bl2: "#DBE5FF",
           b2d: "#2154DA",
+          teal: "#27B1BE",
+          academyBlue: "#044A72",
         },
         gray: {
           line: "#B7B0B0",
@@ -35,8 +37,8 @@ const config: Config = {
         green: {
           button: "#4CAF50",
           secondary: "#00916E",
-          primary:"#10b300",
-          accent:"#208817"
+          primary: "#10b300",
+          accent: "#208817",
         },
       },
     },

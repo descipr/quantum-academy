@@ -55,7 +55,7 @@ const Cta = () => {
     <section className="section-style items-center">
       <div className="flex flex-col items-center justify-center space-y-1 text-center">
         <h2 className="text-2xl md:text-5xl font-bold text-black-primary">
-          Ready to <span className="text-green-primary">Take the Next Step</span>
+          Ready to <span className="text-blue-academyBlue">Take the Next Step</span>
         </h2>
         <h2 className="text-2xl md:text-5xl font-bold text-black-primary">
           in Your AI Journey?

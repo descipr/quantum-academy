@@ -5,7 +5,7 @@ import React from 'react';
 
 const LogoLink: React.FC = () => {
     return (
-        <div className="mb-4 text-center sm:mb-0">
+        <div className=" text-center sm:mb-0">
             <Link href="/">
                 <Image src={headerLogo} alt="Company Logo" width={180} height={50} priority />
             </Link>
