@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
                 <NavbarLinks />
                 </div>
             </nav>
-            <nav className="md:hidden relative flex items-center justify-between mb-4 z-10 w-full pr-4 bg-black-primary">
+            <nav className="md:hidden relative flex items-center justify-between mb-4 z-10 w-full pr-4 ">
                 <LogoLink />
                 <MobileMenuButton onClick={handleDrawerToggle} />
                 <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />

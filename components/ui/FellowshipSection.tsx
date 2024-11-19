@@ -9,7 +9,7 @@ const FellowshipSection = () => {
           <Image
             src={HiringManager}
             alt="Live-learning with Hiring Managers"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full border-[1px] border-blue-teal "
             width={600}
             height={370}
             priority
@@ -20,7 +20,7 @@ const FellowshipSection = () => {
           <Image
             src={CourseCard}
             alt="Learn through Job Simulation Projects"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full border-[1px] border-blue-teal "
             width={600}
             height={370}
             priority
@@ -31,7 +31,7 @@ const FellowshipSection = () => {
           <Image
             src={Mentorship}
             alt="1:1 Mentorship"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full border-[1px] border-blue-teal "
             width={740}
             height={370}
             priority
@@ -42,7 +42,7 @@ const FellowshipSection = () => {
           <Image
             src={Community}
             alt="Exclusive Community Access"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full border-[1px] border-blue-teal "
             width={503}
             height={370}
             priority

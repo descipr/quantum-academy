@@ -26,7 +26,7 @@ const TakeQuiz = () => {
             className="flex items-center space-x-1"
           >
             <p className="text-black-primary font-Plus-jakarta text-xl font-medium cursor-pointer">
-              Take the Descrip Quiz
+              Take the Quantum Academy Quiz
             </p>
             <Image
               src={QuizArrow}
@@ -38,7 +38,7 @@ const TakeQuiz = () => {
           </Link>
         </div>
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSek560yqpVAo_JLnyf8BOw88AN4fdUC4XQ0qIQo83VajddFXw/viewform">
-          <Image src={QuizLogo} alt="Logo" width={330} height={75} priority />
+          <Image src={QuizLogo} alt="Logo" width={350} height={95} priority />
         </Link>
       </div>
     </div>
