@@ -65,7 +65,7 @@ const FloatingButton = () => {
       <div className="flex justify-end items-center gap-4 md:flex-row">
         <button
           onClick={() => setIsOpen(true)}
-          className="flex items-center px-3 py-2 md:px-4 md:py-2 space-x-2 text-sm md:text-base text-black bg-blue-400 hover:bg-blue-500 rounded-lg md:rounded-xl shadow-md"
+          className="flex items-center px-3 py-2 md:px-4 md:py-2 space-x-2 text-sm md:text-base text-black bg-blue-teal hover:bg-blue-500 rounded-lg md:rounded-xl shadow-md"
         >
           <span className="font-medium">Request a Call back</span>
           <Image src={Phone} alt="Phone icon" width={20} height={20} priority />

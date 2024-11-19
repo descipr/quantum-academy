@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
 
     return (
         <>
-            <nav className=" w-full relative py-6 hidden md:flex items-center justify-between z-10 mx-auto bg-black-primary">
+            <nav className=" w-full relative py-6 hidden md:flex items-center justify-between z-10 mx-auto ">
                 <div className='md:flex items-center justify-between z-10 mx-auto w-full max-w-7xl'>
                 <LogoLink />
 

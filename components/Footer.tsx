@@ -5,7 +5,7 @@ import FollowUs from "./ui/FollowUs";
 
 import Image from "next/image";
 import Link from "next/link";
-import { footerLogo, headerLogo } from "@/utils";
+import {  headerLogo } from "@/utils";
 
 const Footer: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
       <div className="flex flex-col sm:flex-row items-left items-center sm:items-start justify-between w-full space-y-4 md:space-y-0">
       <div className="mb-4 text-center sm:mb-0">
             <Link href="/">
-                <Image src={footerLogo} alt="Company Logo" width={180} height={50} priority />
+                <Image src={headerLogo} alt="Company Logo" width={180} height={50} priority />
             </Link>
         </div>
         <div className="flex flex-col sm:flex-row align-left sm:items-center justify-between gap-8 md:gap-16 lg:gap-24 ">

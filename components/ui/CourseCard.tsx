@@ -24,7 +24,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ imageSrc, title, date }) => {
           </h3>
 
           <div className="flex gap-2 items-end">
-            <h1 className="text-2xl  font-bold text-gray-900">
+            <h1 className="text-[18px]  font-bold text-gray-900">
               9999 <span className="text-gray-500 text-sm">AED</span>
             </h1>
             {/* <span className="text-gray-500 text-sm line-through">

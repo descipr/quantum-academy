@@ -5,7 +5,7 @@ const Testimonials: React.FC = () => {
   return (
     <section className="section-style overflow-hidden" id='reviews'>
       <h2 className="heading text-black-primary">
-        Hear it from <span className="text-blue-academyBlue">our learners</span>
+        Hear it from <span className="text-blue-teal">our learners</span>
       </h2>
       <TestimonialCarousel />
     </section>

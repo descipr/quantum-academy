@@ -7,7 +7,7 @@ const LogoLink: React.FC = () => {
     return (
         <div className=" text-center sm:mb-0">
             <Link href="/">
-                <Image src={headerLogo} alt="Company Logo" width={180} height={50} priority />
+                <Image src={headerLogo} alt="Company Logo" width={200} height={60} priority />
             </Link>
         </div>
     );

@@ -75,13 +75,13 @@ const Hero: React.FC = () => {
             className="text-3xl md:text-7xl font-bold text-center text-black-primary"
           >
             Become a{" "}
-            <span className="text-blue-academyBlue font-Plus-jakarta">
+            <span className="text-blue-teal font-Plus-jakarta">
               360-degree
             </span>
           </h1>
           <h1
             ref={heading2Ref}
-            className="text-3xl md:text-6xl font-bold text-center text-blue-academyBlue mt-1 md:mt-3"
+            className="text-3xl md:text-6xl font-bold text-center text-blue-teal mt-1 md:mt-3"
           >
             AI Professional
           </h1>
@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
           className="text-sm md:text-lg text-black-primary text-center font-normal mt-2 md:mt-4"
         >
           Fast-track your career with live Cohort-based{" "}
-          <span className="text-blue-academyBlue font-medium">
+          <span className="text-blue-teal font-medium">
             learning and mentorship from Hiring managers
           </span>
         </p>
