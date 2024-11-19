@@ -65,9 +65,9 @@ const Cta = () => {
       <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
         <button
           onClick={() => setIsOpen(true)}
-          className="flex items-center px-4 py-2 space-x-2 text-black bg-blue-400 hover:bg-blue-500 rounded-xl shadow-md"
+          className="flex items-center px-4 py-2 space-x-2 text-black bg-blue-academyBlue hover:bg-blue-teal rounded-xl shadow-md"
         >
-          <span className="font-medium">Request a Call back</span>
+          <span className="font-medium text-white">Request a Call back</span>
           <Image src={Phone} alt="Phone icon" width={24} height={24} priority />
         </button>
         <Link
