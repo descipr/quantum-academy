@@ -87,7 +87,7 @@ const Learning = ({ courseDetails, pdfurl }: LearningProps) => {
   return (
     <section className="section-style gap-6 sm:gap-0 ">
       <h2 className="heading text-black-primary">
-        What Will<span className="text-green-primary"> You Learn</span>
+        What Will<span className="text-blue-teal"> You Learn</span>
       </h2>
 
       {isDesktop ? (
@@ -98,14 +98,15 @@ const Learning = ({ courseDetails, pdfurl }: LearningProps) => {
 
       <button
         onClick={handleDownloadClick}
-        className="flex items-center px-4 py-2 space-x-2 text-white bg-[#208817] hover:bg-green-primary rounded-xl shadow-md box-shadow mx-auto"
+        className="flex items-center px-4 py-2 space-x-2 text-white bg-blue-academyBlue hover:bg-blue-teal rounded-xl shadow-md box-shadow mx-auto"
       >
-        <span className="flex items-center justify-center text-black-primary text-center font-bold text-lg">
+        <span className="flex items-center justify-center text-white text-center font-bold text-lg">
           Download Detailed Curriculum and Course Timelines
         </span>
         <Image
           src={DownloadIcon}
           alt="Download icon"
+          className=""
           width={24}
           height={24}
           priority
@@ -155,7 +156,7 @@ const Learning = ({ courseDetails, pdfurl }: LearningProps) => {
                 </button>
                 <button
                   type="submit"
-                  className="bg-green-accent text-white px-4 py-2 rounded-lg shadow-lg hover:bg-green-primary"
+                  className="bg-blue-academyBlue text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-teal"
                 >
                   Submit
                 </button>

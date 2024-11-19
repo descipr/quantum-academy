@@ -10,7 +10,7 @@ const ToolsSection = ({ tools }: LearningProps) => {
     <div className="container mx-auto px-4 py-6 flex flex-col gap-12 justify-center items-center">
       <div className="flex flex-col items-center space-y-1">
         <h2 className="text-black-primary heading text-center text-2xl sm:text-4xl font-bold">
-        Tools You  <span className="text-green-primary">Will Learn</span> 
+        Tools You  <span className="text-blue-teal">Will Learn</span> 
         </h2>
       </div>
       <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4">

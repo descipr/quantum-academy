@@ -5,7 +5,7 @@ const DesciprDifference = () => {
     <section className="section-style">
       <div className="flex flex-col items-center space-y-1">
         <h2 className="text-black-primary heading">
-          Experience the <span className="text-green-primary">Descipr Difference</span> 
+          Experience the Quantum <span className="text-blue-teal">Academy Difference</span> 
         </h2>
       </div>
 

@@ -23,7 +23,7 @@ const LiveSessionSection = ({ VideoUrl }: VideoProps) => {
     <section className="section-style mx-auto items-center">
       <div className="flex flex-col items-center space-y-4 mb-8">
         <h2 className="text-black-primary text-center text-2xl md:text-3xl font-bold">
-          Get a  <span className="text-green-primary">Glimpse of</span> a Live Session
+          Get a  <span className="text-blue-teal">Glimpse of</span> a Live Session
         </h2>
       </div>
       {isEnrollNowPage ? (

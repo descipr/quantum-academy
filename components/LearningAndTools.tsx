@@ -12,7 +12,7 @@ const LearningAndTools = ({courseDetails} : LearningProps) => {
   return (
     <section className="section-style">
       <div className="flex flex-col items-center space-y-1">
-        <h2 className="text-black-primary heading">Concepts You  <span className="text-green-primary">Will Learn</span> </h2>
+        <h2 className="text-black-primary heading">Concepts You  <span className="text-blue-teal">Will Learn</span> </h2>
       </div>
 
       <LearnSection learnings = {courseDetails.learning} />

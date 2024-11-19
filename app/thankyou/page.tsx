@@ -8,9 +8,9 @@ const ThankYou = () => {
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}
         transition={{ type: "spring", stiffness: 70, damping: 20, delay: 0.6 }}
-        className="text-center text-white flex flex-col gap-6"
+        className="text-center text-black-primary flex flex-col gap-6"
       >
-        <h1 className="text-4xl md:text-6xl font-bold">Thank <span className="text-green-primary">You!</span></h1>
+        <h1 className="text-4xl md:text-6xl font-bold">Thank <span className="text-blue-teal">You!</span></h1>
         <p className="mt-4 text-lg md:text-xl">
           Thank you for your interest, one of our representatives will get in
           touch with you soon. In the meantime, for faster & quick responses,

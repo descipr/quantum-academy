@@ -28,7 +28,7 @@ const OurTrainers = () => {
     <section className="section-style">
       <div className="flex flex-col items-center space-y-1">
         <h2 className="text-black-primary text-center text-2xl md:text-4xl font-bold">
-        Learn from Our <span className="text-green-primary">Trainers</span>
+        Learn from Our <span className="text-blue-teal">Trainers</span>
         </h2>
       </div>
       {isMobile ? <MobileTrainerCarousel /> : <TrainerSection />}
