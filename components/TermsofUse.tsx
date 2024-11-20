@@ -8,7 +8,7 @@ const TermsOfUse = () => {
         <p className="text-gray-500 text-sm mb-4">Effective Date: 16-08-2024</p>
         
         <p className="text-gray-700 mb-4">
-          Welcome to Descipr India Private Limited <a href="https://www.descipr.com" className="text-blue-500 underline">www.descipr.com</a> ("we," "our," or "us"). By accessing or using our website located at <a href="https://www.descipr.com" className="text-blue-500 underline">www.descipr.com</a> (the "Site"), and by enrolling in or using our courses and services (collectively, the "Services"), you agree to comply with and be bound by the following terms and conditions (the "Terms of Use"). Please read these Terms of Use carefully. If you do not agree to these Terms of Use, you should not use our Site or Services.
+          Welcome to Quantum Academy India Private Limited <a href="https://www.QuantumAcademy.com" className="text-blue-500 underline">www.QuantumAcademy.com</a> ("we," "our," or "us"). By accessing or using our website located at <a href="https://www.QuantumAcademy.com" className="text-blue-500 underline">www.QuantumAcademy.com</a> (the "Site"), and by enrolling in or using our courses and services (collectively, the "Services"), you agree to comply with and be bound by the following terms and conditions (the "Terms of Use"). Please read these Terms of Use carefully. If you do not agree to these Terms of Use, you should not use our Site or Services.
         </p>
         
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">1. Acceptance of Terms</h2>
@@ -41,13 +41,13 @@ const TermsOfUse = () => {
         </p>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">c. Refunds and Cancellations:</h3>
         <p className="text-gray-700 mb-4">
-          Thank you for choosing to shop with Descipr! We're thrilled that you appreciate our products. To ensure you have a satisfying experience while exploring, evaluating, and purchasing from us, please note that certain terms and conditions apply to all transactions at Descipr. By placing an order or making a purchase, you agree to these terms as well as our Privacy Policy. If you are not entirely satisfied with any product or service, please reach out to us, and we'll be happy to address any concerns you may have.
+          Thank you for choosing to shop with QuantumAcademy! We're thrilled that you appreciate our products. To ensure you have a satisfying experience while exploring, evaluating, and purchasing from us, please note that certain terms and conditions apply to all transactions at Quantum Academy. By placing an order or making a purchase, you agree to these terms as well as our Privacy Policy. If you are not entirely satisfied with any product or service, please reach out to us, and we'll be happy to address any concerns you may have.
         </p>
 
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">4. Intellectual Property</h2>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">a. Ownership:</h3>
         <p className="text-gray-700 mb-4">
-          All content and materials provided through our Services, including but not limited to text, graphics, logos, videos, and course materials (collectively, the "Content"), are owned by Descipr or its licensors and are protected by intellectual property laws.
+          All content and materials provided through our Services, including but not limited to text, graphics, logos, videos, and course materials (collectively, the "Content"), are owned by Quantum Academy or its licensors and are protected by intellectual property laws.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">b. License:</h3>
         <p className="text-gray-700 mb-4">
@@ -77,12 +77,12 @@ const TermsOfUse = () => {
 
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">7. Limitation of Liability</h2>
         <p className="text-gray-700 mb-4">
-          To the fullest extent permitted by law, Descipr shall not be liable for any indirect, incidental, consequential, or punitive damages arising from or related to your use of the Site or Services. Our total liability for any claim arising from your use of the Site or Services shall be limited to the amount you paid for the course or service that gave rise to the claim.
+          To the fullest extent permitted by law, Quantum Academy shall not be liable for any indirect, incidental, consequential, or punitive damages arising from or related to your use of the Site or Services. Our total liability for any claim arising from your use of the Site or Services shall be limited to the amount you paid for the course or service that gave rise to the claim.
         </p>
 
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">8. Indemnification</h2>
         <p className="text-gray-700 mb-4">
-          You agree to indemnify and hold harmless Descipr, its affiliates, officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses, including legal fees, arising out of or related to your use of the Site or Services, your violation of these Terms of Use, or your infringement of any third-party rights.
+          You agree to indemnify and hold harmless Quantum Academy, its affiliates, officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses, including legal fees, arising out of or related to your use of the Site or Services, your violation of these Terms of Use, or your infringement of any third-party rights.
         </p>
 
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">9. Governing Law and Dispute Resolution</h2>
@@ -95,10 +95,10 @@ const TermsOfUse = () => {
           If you have any questions about these Terms of Use, please contact us at:
         </p>
         <address className="text-gray-700 mb-4">
-          Descipr India Private Limited<br />
+          Quantum Academy India Private Limited<br />
           Flat no 3, 77 Satyam Apt, Circular Rd, P O 24 PGS N, Nabapally, Bodai,<br />
           North 24 Parganas-700126, West Bengal<br />
-          Email: <a href="mailto:hello@descipr.com" className="text-blue-500 underline">hello@descipr.com</a><br />
+          Email: <a href="mailto:hello@QuantumAcademy.com" className="text-blue-500 underline">hello@QuantumAcademy.com</a><br />
           Phone: +917019156736
         </address>
         <p className="text-gray-500 text-sm">Effective Date: 16-08-2024</p>

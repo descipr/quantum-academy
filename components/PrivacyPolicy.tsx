@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
       <div className="max-w-4xl mx-auto bg-white p-8 shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold text-blue-teal mb-6">Privacy Policy</h1>
         <p className="text-gray-700 mb-4">
-          Welcome to Descipr India Private Limited ("we," "our," "us"). We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit our website <a href="https://www.descipr.com" className="text-blue-500 underline">www.descipr.com</a> ("Site") and use our services, including courses and other resources related to data science and AI.
+          Welcome to Quantum Academy India Private Limited ("we," "our," "us"). We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit our website <a href="https://www.QuantumAcademy.com" className="text-blue-500 underline">www.Quantum Academy.com</a> ("Site") and use our services, including courses and other resources related to data science and AI.
         </p>
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">1. Information We Collect</h2>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">1.1 Personal Information:</h3>
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
         <h2 className="text-2xl font-semibold text-blue-teal mt-8 mb-4">5. Your Rights</h2>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">5.1 Access and Correction:</h3>
         <p className="text-gray-700 mb-4">
-          You have the right to access, correct, or update your personal information. You can do this by contacting us at <a href="mailto:hello@descipr.com" className="text-blue-500 underline">hello@descipr.com</a>.
+          You have the right to access, correct, or update your personal information. You can do this by contacting us at <a href="mailto:hello@Quantum Academy.com" className="text-blue-500 underline">hello@Quantum Academy.com</a>.
         </p>
         <h3 className="text-xl font-semibold text-gray-900 mb-2">5.2 Deletion:</h3>
         <p className="text-gray-700 mb-4">
@@ -79,10 +79,10 @@ const PrivacyPolicy = () => {
           If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
         </p>
         <address className="text-gray-700 mb-4">
-          Descipr India Private Limited<br />
+          Quantum Academy India Private Limited<br />
           Flat no 3, 77 Satyam Apt, Circular Rd, P O 24 PGS N, Nabapally, Bodai, <br />
           North 24 Parganas-700126, West Bengal<br />
-          Email: <a href="mailto:hello@descipr.com" className="text-blue-500 underline">hello@descipr.com</a><br />
+          Email: <a href="mailto:hello@QuantumAcademy.com" className="text-blue-500 underline">hello@QuantumAcademy.com</a><br />
           Phone: +917019156736
         </address>
 
