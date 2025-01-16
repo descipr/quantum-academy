@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import Image, { StaticImageData } from "next/image";
 import { Bart_mentor, tanoy_mentor } from "@/utils";
 import { dm_sans, inter } from "@/app/font";
+import Link from "next/link";
 
 interface Mentor {
     name: string;
@@ -104,9 +105,9 @@ const MeetYourMentors: React.FC = () => {
                     ))}
                 </div>
                 <div className="mt-4">
-                    <button className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2 mx-auto ">
+                    <Link href="https://calendly.com/bartekpietruszka" target="_blank" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2 mx-auto ">
                         Schedule a 1:1 connect
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
