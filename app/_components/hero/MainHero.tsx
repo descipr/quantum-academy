@@ -61,9 +61,9 @@ const MainHero = () => {
                     <Link href="#courses" className=" border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition text-center">
                         Explore Live Courses
                     </Link >
-                    <button className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSczIJmMx9GqFKUqs8-PqsxEfVhqXWYwZlo-kPWkiOoUavFY5A/viewform?usp=header " target="_blank" className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
                         Request a callback
-                    </button>
+                    </Link >
                 </div>
             </div>
         </div>

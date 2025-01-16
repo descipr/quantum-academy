@@ -63,12 +63,12 @@ const CoursesForLeaders = () => {
             <li>Price - <span className='text-red-600 line-through'>$1999</span> <span className='text-green-600'>$1499</span></li>
           </ul>
           <div className="flex mt-4">
-            <Link href="/ai-for-business-leaders" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
+            <Link href="https://buy.stripe.com/6oE6pl2VZgVQ0xyfYY" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
               Enroll Now
             </Link >
-            <button className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-bold py-2 px-4 rounded">
+            <Link href="/ai-for-business-leaders" className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-bold py-2 px-4 rounded">
               Know More
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -94,12 +94,12 @@ const CoursesForLeaders = () => {
             <li>Price - <span className='text-red-600 line-through'>$1999</span> <span className='text-green-600'>$1499</span></li>
           </ul>
           <div className="flex mt-4">
-            <Link href="/ai-for-sme" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
-              Join Waitlist
+            <Link href="https://buy.stripe.com/bIY295gMP9tocggdQR" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
+              Enroll Now
             </Link>
-            <button className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-bold py-2 px-4 rounded">
+            <Link href="/ai-for-sme" className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-bold py-2 px-4 rounded">
               Know More
-            </button>
+            </Link>
           </div>
         </div>
       </div>

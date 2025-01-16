@@ -5,8 +5,9 @@ import Image from "next/image";
 import { HeroImage } from "@/utils";
 import { useGSAP } from "@gsap/react";
 import { dm_sans, inter } from "@/app/font";
+import Link from "next/link";
 
-const Hero = ({ text }: { text: string }) => {
+const Hero = ({ text, heading, link }: { text: string, heading:string, link:string }) => {
   const imageRef = useRef<HTMLDivElement | null>(null);
   const textRef = useRef<HTMLDivElement | null>(null);
 
@@ -48,7 +49,7 @@ const Hero = ({ text }: { text: string }) => {
         <h1
           className={`text-3xl md:text-5xl font-medium text-black ${dm_sans.className}`}
         >
-          AI for Leaders
+          {heading}
         </h1>
 
         <div>
@@ -67,12 +68,12 @@ const Hero = ({ text }: { text: string }) => {
         <div
           className={`flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4 w-full ${inter.className}`}
         >
-          <button className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
+          <Link href={link} className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
             Enroll Now
-          </button>
-          <button className="border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition">
+          </Link >
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSczIJmMx9GqFKUqs8-PqsxEfVhqXWYwZlo-kPWkiOoUavFY5A/viewform?usp=header "  target ="_blank" className="border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition">
             Request a callback
-          </button>
+          </Link >
         </div>
       </div>
     </div>
