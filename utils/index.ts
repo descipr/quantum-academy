@@ -1,4 +1,4 @@
-import headerLogo from "@/public/headerLogo.svg";
+import headerLogo from "@/public/Logo.jpg";
 import HeroImage from "@/public/Hero_side_image.jpg"
 import Bart_mentor from "@/public/Bart-Pietruszka.jpg"
 import tanoy_mentor from "@/public/AI_for_leaders_Tanoy.jpg"
