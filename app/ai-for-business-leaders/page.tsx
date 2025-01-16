@@ -10,7 +10,7 @@ import WhoShouldTakeThisCourse from "../_components/whyCourse/WhoShouldTakeThisC
 const AiForBusinessLeaders = () => {
     return (
         <main className="flex flex-col gap-8 md:gap-16 bg-white">
-            <Hero />
+            <Hero text="Navigating this AI age doesn't just take technical guidance; it takes strategic and human-centric leadership, a clear vision, and the ability to manage teams effectively. " />
             <Mentors />
             <KeyTakeaways />
             <CourseContent />
