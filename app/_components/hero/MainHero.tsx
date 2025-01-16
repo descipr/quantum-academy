@@ -5,6 +5,7 @@ import Image from "next/image";
 import { HeroImage } from "@/utils";
 import { useGSAP } from "@gsap/react";
 import { dm_sans, inter } from "@/app/font";
+import Link from "next/link";
 
 
 const MainHero = () => {
@@ -57,9 +58,9 @@ const MainHero = () => {
                     </p>
                 </div>
                 <div className={`flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4 w-full ${inter.className}`}>
-                    <button className=" border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition ">
+                    <Link href="#courses" className=" border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition ">
                         Explore Live Courses
-                    </button>
+                    </Link >
                     <button className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
                         Request a callback
                     </button>

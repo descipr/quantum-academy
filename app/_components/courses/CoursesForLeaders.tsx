@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useEffect, useRef } from 'react';
 import { Ai_for_leaders_course, tanoy_mentor } from '@/utils';
+import Link from 'next/link';
 
 const CoursesForLeaders = () => {
   const containerRef = useRef(null);
@@ -34,7 +35,7 @@ const CoursesForLeaders = () => {
   }, []);
 
   return (
-    <div className="bg-white p-10 rounded-lg shadow-md max-w-6xl mx-auto w-full" ref={containerRef}>
+    <div className="bg-white p-10 rounded-lg shadow-md max-w-6xl mx-auto w-full" id='courses' ref={containerRef}>
       <h2 className={`text-3xl md:text-5xl font-bold text-left mb-10 ${dm_sans.className}`}>
         Live AI Courses for <span className='text-blue-teal'>Leaders</span>
       </h2>
@@ -62,9 +63,9 @@ const CoursesForLeaders = () => {
             <li>Price - <span className='text-red-600 line-through'>$1999</span> <span className='text-green-600'>$1499</span></li>
           </ul>
           <div className="flex mt-4">
-            <button className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
+            <Link href="/ai-for-business-leaders" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
               Enroll Now
-            </button>
+            </Link >
             <button className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-bold py-2 px-4 rounded">
               Know More
             </button>
@@ -93,9 +94,9 @@ const CoursesForLeaders = () => {
             <li>Price - <span className='text-red-600 line-through'>$1999</span> <span className='text-green-600'>$1499</span></li>
           </ul>
           <div className="flex mt-4">
-            <button className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
+            <Link href="/ai-for-sme" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2">
               Join Waitlist
-            </button>
+            </Link>
             <button className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-bold py-2 px-4 rounded">
               Know More
             </button>
