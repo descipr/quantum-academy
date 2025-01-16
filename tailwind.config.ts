@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+        blue : {
+          teal:"#3c579f",
+        }
       },
+
     },
   },
   plugins: [],
