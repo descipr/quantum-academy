@@ -37,7 +37,7 @@ const LiveAICoursesForDevelopers = () => {
 
   return (
     <div className="bg-white p-10 rounded-lg shadow-md max-w-6xl mx-auto w-full" ref={containerRef}>
-      <h2 className={`text-3xl md:text-5xl font-semibold text-left mb-10 ${dm_sans.className}`}>
+      <h2 className={`text-3xl md:text-5xl font-semibold text-left mb-10 text-gray-navlink ${dm_sans.className}`}>
         Live AI Courses for <span className='text-blue-teal'>Developers</span>
       </h2>
 

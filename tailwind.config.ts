@@ -14,6 +14,10 @@ const config: Config = {
 
         blue : {
           teal:"#3c579f",
+        },
+
+        gray:{
+          navlink: "#464646",
         }
       },
 

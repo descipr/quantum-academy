@@ -34,7 +34,7 @@ const QuantumAcademy = () => {
 
     return (
         <div className="py-10 px-6 bg-white max-w-6xl mx-auto w-full ">
-            <h2 className={`text-3xl md:text-5xl font-se text-left mb-12 ${dm_sans.className}`}>
+            <h2 className={`text-3xl md:text-5xl font-semibold text-left mb-12 ${dm_sans.className}`}>
                 Experience the Quantum Academy Difference
             </h2>
             <div
@@ -85,7 +85,7 @@ const QuantumAcademy = () => {
                             <h3 className={`text-xl md:text-2xl font-semibold text-blue-teal  ${inter.className}`}>
                                 {item.title}
                             </h3>
-                            <p className={`text-gray-600 text-lg md:text-xl`}>{item.description}</p>
+                            <p className={`text-gray-navlink font-semibold text-lg `}>{item.description}</p>
                         </div>
                     </div>
                 ))}

@@ -48,20 +48,20 @@ const MainHero = () => {
                 ref={textRef}
                 className="w-full md:w-1/2 flex flex-col items-start justify-start space-y-6"
             >
-                <h1 className={`text-3xl md:text-5xl font-medium  text-blue-teal ${dm_sans.className}`}>
+                <h1 className={`text-3xl md:text-5xl font-semibold  text-blue-teal ${dm_sans.className}`}>
                     Elevate Your AI Expertise
                 </h1>
 
                 <div>
-                    <p className={`text-base md:text-lg text-gray-700 font-semibold text-justify ${inter.className}`}>
+                    <p className={`text-base text-gray-navlink font-medium text-justify ${inter.className} max-w-xl`}>
                         Immerse yourself in personalized AI courses led by industry experts. Master essential skills through interactive case studies and hands-on learning.
                     </p>
                 </div>
                 <div className={`flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4 w-full ${inter.className}`}>
-                    <Link href="#courses" className=" border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition text-center">
+                    <Link href="#courses" className=" border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-600 hover:text-white transition text-center">
                         Explore Live Courses
                     </Link >
-                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSczIJmMx9GqFKUqs8-PqsxEfVhqXWYwZlo-kPWkiOoUavFY5A/viewform?usp=header " target="_blank" className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSczIJmMx9GqFKUqs8-PqsxEfVhqXWYwZlo-kPWkiOoUavFY5A/viewform?usp=header " target="_blank" className="bg-blue-teal text-white px-6 py-3 rounded-md text-base font-semibold hover:bg-blue-700 transition">
                         Request a callback
                     </Link >
                 </div>

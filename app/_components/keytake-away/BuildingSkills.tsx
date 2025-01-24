@@ -14,7 +14,7 @@ interface KeyTakeawayProps {
   }[];
 }
 
-const KeyTakeaways: React.FC<KeyTakeawayProps> = ({ heading, takeaways }) => {
+const BuildingSkills: React.FC<KeyTakeawayProps> = ({ heading, takeaways }) => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const KeyTakeaways: React.FC<KeyTakeawayProps> = ({ heading, takeaways }) => {
   return (
     <div
       ref={sectionRef}
-      className="flex flex-col items-center md:items-start justify-center py-10 px-6 bg-white max-w-6xl mx-auto"
+      className="flex flex-col items-center md:items-start justify-center py-10 px-6 bg-white max-w-5xl mx-auto"
     >
       <h2
         className={`text-3xl md:text-5xl font-bold text-left mb-10 ${dm_sans.className}`}
@@ -55,7 +55,7 @@ const KeyTakeaways: React.FC<KeyTakeawayProps> = ({ heading, takeaways }) => {
         {takeaways.map((item, index) => (
           <div
             key={index}
-            className="icon flex flex-col items-center text-center p-4 bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow duration-300"
+            className="icon flex flex-col items-left text-left p-4 bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow duration-300"
           >
             <div className="text-4xl mb-4 text-blue-500">{item.icon}</div>
             <p
@@ -70,4 +70,4 @@ const KeyTakeaways: React.FC<KeyTakeawayProps> = ({ heading, takeaways }) => {
   );
 };
 
-export default KeyTakeaways;
+export default BuildingSkills;

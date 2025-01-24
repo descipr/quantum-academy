@@ -1,3 +1,4 @@
+import { AiForLeaderData, courseStructureData, faqData, smeBenefitsData, takeawaysContent } from "@/constants";
 import CourseBenefits from "../_components/course-content/CourseBenefits";
 import CourseContent from "../_components/course-content/CourseContent";
 import CourseStructure from "../_components/course-content/CourseStructure";
@@ -13,12 +14,12 @@ const AiForBusinessLeaders = () => {
             <Hero text="Navigating this AI age doesn't just take technical guidance; it takes strategic and human-centric leadership, a clear vision, and the ability to manage teams effectively. " heading="AI for Leaders" link=" https://buy.stripe.com/6oE6pl2VZgVQ0xyfYY
 " />
             <Mentors />
-            <KeyTakeaways />
+            <KeyTakeaways heading={takeawaysContent.heading} takeaways={takeawaysContent.takeaways} />
             <CourseContent />
-            <WhoShouldTakeThisCourse />
-            <CourseBenefits />
-            <CourseStructure />
-            <FAQ />
+            <WhoShouldTakeThisCourse heading="Who Should Take This Course?" data={AiForLeaderData} />
+            <CourseBenefits heading={smeBenefitsData.heading} benefits={smeBenefitsData.benefits} />
+            <CourseStructure heading={courseStructureData.heading} courseItems={courseStructureData.courseItems} />
+            <FAQ heading={faqData.heading} faqs={faqData.faqs} />
         </main>
     );
 }

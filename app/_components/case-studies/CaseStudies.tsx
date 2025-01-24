@@ -1,23 +1,25 @@
-'use client';
+"use client";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { dm_sans, inter } from "@/app/font";
 
-interface Benefit {
+interface CaseStudy {
+  id: number;
   title: string;
   description: string;
 }
 
-interface CourseBenefitsProps {
+interface CaseStudiesProps {
   heading: string;
-  benefits: Benefit[];
+  caseStudies: CaseStudy[];
 }
 
-const CourseBenefits: React.FC<CourseBenefitsProps> = ({ heading, benefits }) => {
+const CaseStudies: React.FC<CaseStudiesProps> = ({ heading, caseStudies }) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
 
     if (containerRef.current) {
@@ -46,20 +48,21 @@ const CourseBenefits: React.FC<CourseBenefitsProps> = ({ heading, benefits }) =>
       <h2 className={`text-3xl md:text-5xl font-bold text-left mb-10 ${dm_sans.className}`}>
         {heading}
       </h2>
-      <div
-        className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
-        ref={containerRef}
-      >
-        {benefits.map((benefit, index) => (
-          <div key={index} className="flex items-start space-x-6 w-full">
-            {/* Perfect Square */}
-            <div className="w-10 h-10 bg-blue-200 flex-shrink-0"></div>
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2" ref={containerRef}>
+        {caseStudies.map((caseStudy) => (
+          <div key={caseStudy.id} className="flex items-start space-x-4 w-full">
+            <div
+              className="w-12 h-12 bg-blue-200 flex items-center justify-center"
+              style={{ minWidth: "3rem", minHeight: "3rem" }}
+            >
+              <span className="text-lg font-bold text-gray-700">{caseStudy.id}</span>
+            </div>
             <div>
               <h3 className={`text-lg md:text-2xl font-semibold text-gray-700 ${dm_sans.className}`}>
-                {benefit.title}
+                {caseStudy.title}
               </h3>
               <p className={`text-gray-600 text-base md:text-xl ${inter.className}`}>
-                {benefit.description}
+                {caseStudy.description}
               </p>
             </div>
           </div>
@@ -69,4 +72,4 @@ const CourseBenefits: React.FC<CourseBenefitsProps> = ({ heading, benefits }) =>
   );
 };
 
-export default CourseBenefits;
+export default CaseStudies;
