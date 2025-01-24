@@ -10,7 +10,7 @@ import { FaCertificate, FaChalkboardTeacher, FaInfinity, FaVideo } from "react-i
 import FAQ from "../_components/faq/FAQ";
 
 
-export const daimondCoreFeatures = {
+const daimondCoreFeatures = {
     heading: "Core Features: Boosting Your Learning",
     takeaways: [
         {

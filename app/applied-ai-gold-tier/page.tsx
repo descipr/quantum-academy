@@ -9,8 +9,7 @@ import CoreFeature from "../_components/core-features/CoreFeature";
 import { FaCertificate, FaChalkboardTeacher, FaInfinity, FaVideo } from "react-icons/fa";
 import FAQ from "../_components/faq/FAQ";
 
-
-export const goldCoreFeatures = {
+const goldCoreFeatures = {
     heading: "Core Features: Boosting Your Learning",
     takeaways: [
       {

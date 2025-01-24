@@ -1,4 +1,4 @@
-import { AiForLeaderData, courseStructureData, faqData, smeBenefitsData, takeawaysContent } from "@/constants";
+import { AiForLeaderData, courseContent, courseStructureData, faqData, smeBenefitsData, takeawaysContent } from "@/constants";
 import CourseBenefits from "../_components/course-content/CourseBenefits";
 import CourseContent from "../_components/course-content/CourseContent";
 import CourseStructure from "../_components/course-content/CourseStructure";
@@ -15,7 +15,7 @@ const AiForBusinessLeaders = () => {
 " />
             <Mentors />
             <KeyTakeaways heading={takeawaysContent.heading} takeaways={takeawaysContent.takeaways} />
-            <CourseContent />
+            <CourseContent data={courseContent} />
             <WhoShouldTakeThisCourse heading="Who Should Take This Course?" data={AiForLeaderData} />
             <CourseBenefits heading={smeBenefitsData.heading} benefits={smeBenefitsData.benefits} />
             <CourseStructure heading={courseStructureData.heading} courseItems={courseStructureData.courseItems} />
