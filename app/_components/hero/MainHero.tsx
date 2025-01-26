@@ -29,7 +29,7 @@ const MainHero = () => {
     }, []);
 
     return (
-        <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-center gap-4 bg-white mt-8 pr-3 px-6">
+        <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-center gap-4 bg-white md:mt-8 pr-3 px-6">
             <div
                 ref={imageRef}
                 className="w-full md:w-1/2 flex justify-center items-center"

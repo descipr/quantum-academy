@@ -22,7 +22,8 @@ interface TierHeroProps {
     };
   }; // Course details
   buttonText: string; // Text for the button
-  buttonLink: string; // Link for the button
+  buttonLink: string;
+  batchInfo: string // Link for the button
 }
 
 const TierHero: React.FC<TierHeroProps> = ({
@@ -34,6 +35,7 @@ const TierHero: React.FC<TierHeroProps> = ({
   details,
   buttonText,
   buttonLink,
+  batchInfo,
 }) => {
   const imageRef = useRef<HTMLDivElement | null>(null);
   const textRef = useRef<HTMLDivElement | null>(null);
@@ -80,6 +82,12 @@ const TierHero: React.FC<TierHeroProps> = ({
         </h1>
         <p className={`text-base md:text-lg text-gray-navlink font-semibold text-justify ${inter.className}`}>
           {description}
+        </p>
+
+        <p
+          className={`text-lg font-medium text-blue-teal ${inter.className}`}
+        >
+          {batchInfo}
         </p>
         <ul className="space-y-2 text-base md:text-lg text-black-para font-semibold">
           <li><strong>Level:</strong> {details.level}</li>

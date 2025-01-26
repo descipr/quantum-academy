@@ -23,8 +23,8 @@ const Reviews: React.FC = () => {
                     ease: "power3.out",
                     scrollTrigger: {
                         trigger: containerRef.current,
-                        start: "top 80%", // Trigger when the top of the container reaches 80% of the viewport
-                        end: "bottom 20%",
+                        start: "top bottom", // Trigger when the top of the container reaches 80% of the viewport
+                        end: "bottom 50%",
                         toggleActions: "play none none none",
                     },
                 }
@@ -33,7 +33,7 @@ const Reviews: React.FC = () => {
     }, []);
 
     return (
-        <section className="bg-white py-10 px-4 sm:px-6 md:px-8 lg:px-10 max-w-6xl mx-auto flex flex-col">
+        <section className="bg-white py-10 px-4 sm:px-6 md:px-8 lg:px-10 max-w-6xl mx-auto flex flex-col overflow-hidden">
             <div className="py-6 max-w-6xl mx-auto">
                 <h2
                     className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-8 ${dm_sans.className}`}

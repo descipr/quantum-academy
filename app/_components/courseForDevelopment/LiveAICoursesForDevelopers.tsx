@@ -18,7 +18,7 @@ const LiveAICoursesForDevelopers = () => {
 
   const courses = [
     {
-      title: 'Gold Tier',
+      title: 'Applied Ai Gold Tier',
       description: 'Ideal for fresh graduates and early-career developers looking to build a solid foundation in AI.',
       points: [
         '24 hours of interactive sessions.',
@@ -33,9 +33,11 @@ const LiveAICoursesForDevelopers = () => {
       },
       link: '/applied-ai-gold-tier',
       image: Gold_tier,
+      enrollLink: "https://buy.stripe.com/4gw4hdbsv7lg6VWdQT"
+
     },
     {
-      title: 'Platinum Tier',
+      title: 'Applied Ai Platinum Tier',
       description: 'Perfect for mid-level AI developers ready to tackle intermediate challenges and advance their expertise.',
       points: [
         '28 hours of interactive sessions.',
@@ -51,9 +53,10 @@ const LiveAICoursesForDevelopers = () => {
       },
       link: '/applied-ai-platinum-tier',
       image: platinum_tier,
+      enrollLink: "https://buy.stripe.com/14k8xtcwzdJEa88bIM"
     },
     {
-      title: 'Diamond Tier',
+      title: 'Applied Ai Diamond Tier',
       description: 'Designed for ambitious AI professionals aiming for senior or leadership roles in the industry.',
       points: [
         '32 hours of advanced, interactive sessions.',
@@ -70,9 +73,10 @@ const LiveAICoursesForDevelopers = () => {
       },
       link: '/applied-ai-diamond-tier',
       image: daimond_tier,
+      enrollLink: "https://buy.stripe.com/dR6dRNgMPfRMcggbIN"
     },
     {
-      title: 'AI Ethics',
+      title: 'Applied Ai Ethics',
       description: 'Learn to design, deploy, and manage AI systems that are ethical, inclusive, and aligned with legal and societal norms.',
       points: [
         '2 immersive days of live, highly engaging sessions tailored for professionals navigating the complexities of AI ethics.',
@@ -86,6 +90,7 @@ const LiveAICoursesForDevelopers = () => {
       },
       link: '/ai-ethics',
       image: ethics,
+      enrollLink: " https://buy.stripe.com/5kA6plaoraxs4NOeUW"
     },
   ];
 
@@ -143,7 +148,7 @@ const LiveAICoursesForDevelopers = () => {
               key={index}
               className={`flex-shrink-0 ${isDesktop ? 'w-1/2' : 'w-full'} px-4`}
             >
-              <div className="flex flex-col items-start max-w-6xl  justify-between bg-gray-50 mx-auto rounded-lg shadow-md h-full relative">
+              <div className="flex flex-col items-start max-w-6xl py-4 justify-between bg-gray-50 mx-auto rounded-lg shadow-md h-full relative">
                 {/* Limited Seats Tag */}
                 <div className="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold py-1 px-3 rounded-full z-50">
                   Limited Seats
@@ -172,29 +177,39 @@ const LiveAICoursesForDevelopers = () => {
                     <li key={i}>{point}</li>
                   ))}
                   <li className="mt-2">
-                    Price -{' '}
+                    Investment -{' '}
                     <span className="text-red-600 line-through">
                       {course.price.original}
                     </span>{' '}
                     <span className="text-green-600">{course.price.discounted}</span>
                   </li>
                 </ul>
-                <Link
-                  href={course.link}
-                  className="text-blue-teal border-blue-teal border font-bold py-2 px-4 rounded-lg mt-4"
-                >
-                  Know More
-                </Link>
+
+                <div className='flex'>
+                  <Link
+                    href={course.enrollLink as string}
+                    className="bg-blue-teal hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg mr-2"
+                  >
+                    Enroll Now
+                  </Link>
+                  <Link
+                    href={course.link}
+                    className="border border-blue-teal hover:bg-gray-100 text-blue-teal font-semibold py-2 px-4 rounded"
+                  >
+                    Know More
+                  </Link>
+                </div>
+
               </div>
             </div>
           ))}
         </motion.div>
 
         {/* Carousel Controls */}
-        <div className="mt-8 flex justify-center items-center space-x-4">
+        <div className="mt-8 mb-4 flex justify-center items-center space-x-4">
           <button
             onClick={prevSlide}
-            className="bg-white p-2 rounded-full shadow-md"
+            className="bg-white p-2 rounded-full "
           >
             <svg
               className="h-6 w-6 text-gray-700"
@@ -212,7 +227,7 @@ const LiveAICoursesForDevelopers = () => {
           </button>
           <button
             onClick={nextSlide}
-            className="bg-white p-2 rounded-full shadow-md"
+            className="bg-white p-2 rounded-full "
           >
             <svg
               className="h-6 w-6 text-gray-700"

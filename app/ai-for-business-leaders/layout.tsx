@@ -17,7 +17,7 @@ export default function AiForBusinessLayout({
     return (
         <html lang="en">
             <body
-                className={`antialiased bg-[#ffffff]`}
+                className={`antialiased bg-[#ffffff] `}
             >
                 {children}
             </body>

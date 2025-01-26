@@ -7,14 +7,14 @@ import Hero from "../_components/hero/Hero";
 import KeyTakeaways from "../_components/keytake-away/KeyTakeaways";
 import Mentors from "../_components/mentors/Mentors";
 import WhoShouldTakeThisCourse from "../_components/whyCourse/WhoShouldTakeThisCourse";
-import { HeroImage } from "@/utils";
+import { Ai_for_leaders_course, HeroImage } from "@/utils";
 
 const AiForBusinessLeaders = () => {
     return (
         <main className="flex flex-col gap-8 md:gap-16 bg-white">
             {/* <Hero text="Navigating this AI age doesn't just take technical guidance; it takes strategic and human-centric leadership, a clear vision, and the ability to manage teams effectively. " heading="AI for Leaders" link=" https://buy.stripe.com/6oE6pl2VZgVQ0xyfYY */}
 {/* " /> */}
-            <Hero imageSrc={HeroImage} imageAlt="Ai-for business leaders" heading="AI for Leaders" text="Navigating this AI age doesn't just take technical guidance; it takes strategic and human-centric leadership, a clear vision, and the ability to manage teams effectively." batchInfo="Next batch starts from 22th February, 2025" primaryLink={{
+            <Hero imageSrc={Ai_for_leaders_course} imageAlt="Ai-for business leaders" heading="AI for Leaders" text="Navigating this AI age doesn't just take technical guidance; it takes strategic and human-centric leadership, a clear vision, and the ability to manage teams effectively." batchInfo="Next batch starts from 22th February, 2025" primaryLink={{
                 href: "https://buy.stripe.com/6oE6pl2VZgVQ0xyfYY ",
                 label: "Enroll Now"
             }} secondaryLink={{

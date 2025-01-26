@@ -15,15 +15,16 @@ const Navbar: React.FC = () => {
 
     return (
         <>
-            <nav className=" w-full relative py-4 hidden md:flex items-center justify-between z-10 mx-auto bg-white">
-                <div className='md:flex items-center justify-between z-10 mx-auto w-full max-w-5xl'>
+            <nav className="w-full fixed top-0 left-0 py-4 hidden md:flex items-center justify-between z-10 bg-white shadow-md">
+                <div className="md:flex items-center justify-between z-10 mx-auto w-full max-w-5xl">
                     <LogoLink />
                     <NavbarLinks />
                 </div>
             </nav>
+
             <nav className="md:hidden relative flex items-center justify-between mb-4 z-10 w-full pr-4 bg-white">
                 <LogoLink />
-                {!isDrawerOpen && <MobileMenuButton onClick={handleDrawerToggle} /> }
+                {!isDrawerOpen && <MobileMenuButton onClick={handleDrawerToggle} />}
                 <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
             </nav>
         </>

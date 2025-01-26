@@ -63,6 +63,7 @@ const AppliedAiGoldTier = () => {
                 }}
                 buttonText="Enroll Now"
                 buttonLink="https://buy.stripe.com/4gw4hdbsv7lg6VWdQT"
+                batchInfo="Next batch starts from 22th February, 2025"
             />
             <WhoShouldTakeThisCourse heading="Who This Course Is For" data={GoldTierData} />
             <BuildingSkills heading={GoldTakeawaysContent.heading} takeaways={GoldTakeawaysContent.takeaways} />

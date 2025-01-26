@@ -64,6 +64,7 @@ const AppliedAiPlatinumTier = () => {
                 }}
                 buttonText="Enroll Now"
                 buttonLink="https://buy.stripe.com/14k8xtcwzdJEa88bIM"
+                batchInfo="Next batch starts from 22th February, 2025"
             />
             <WhoShouldTakeThisCourse heading="Who This Course Is For" data={PlatinumTierData} />
             <BuildingSkills heading={platinumTakeawaysContent.heading} takeaways={platinumTakeawaysContent.takeaways} />

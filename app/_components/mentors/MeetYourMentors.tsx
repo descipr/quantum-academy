@@ -50,8 +50,8 @@ const MeetYourMentors: React.FC = () => {
                     ease: "power3.out",
                     scrollTrigger: {
                         trigger: containerRef.current,
-                        start: "top 80%", // When the top of the container reaches 80% of the viewport
-                        end: "bottom 20%", // End of the animation trigger range
+                        start: "top bottom", // When the top of the container reaches 80% of the viewport
+                        end: "bottom 50%", // End of the animation trigger range
                         toggleActions: "play none none none", // Animation plays when triggered
                     },
                 }
@@ -74,7 +74,7 @@ const MeetYourMentors: React.FC = () => {
                     {mentors.map((mentor, index) => (
                         <div
                             key={index}
-                            className="flex flex-col items-start text-center shadow-lg rounded-lg bg-white "
+                            className="flex flex-col items-start text-center p-2 shadow-lg rounded-lg bg-white "
                         >
                             <div className="w-full h-64 relative mb-4">
                                 <Image

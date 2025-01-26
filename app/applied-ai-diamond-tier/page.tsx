@@ -64,6 +64,7 @@ const AppliedAiDaimondTier = () => {
                 }}
                 buttonText="Enroll Now"
                 buttonLink="https://buy.stripe.com/dR6dRNgMPfRMcggbIN"
+                batchInfo="Next batch starts from 22th February, 2025"
             />
             <WhoShouldTakeThisCourse heading="Who This Course Is For" data={DaimondTierData} />
             <BuildingSkills heading={daimondTakeawaysContent.heading} takeaways={daimondTakeawaysContent.takeaways} />
