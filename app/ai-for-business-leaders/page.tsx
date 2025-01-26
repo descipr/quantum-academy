@@ -19,7 +19,7 @@ const AiForBusinessLeaders = () => {
                 label: "Enroll Now"
             }} secondaryLink={{
                 href: "https://docs.google.com/forms/d/e/1FAIpQLSczIJmMx9GqFKUqs8-PqsxEfVhqXWYwZlo-kPWkiOoUavFY5A/viewform?usp=header ",
-                label: "Requeest a Callback"
+                label: "Request a Callback"
             }}  />
             <Mentors />
             <KeyTakeaways heading={takeawaysContent.heading} takeaways={takeawaysContent.takeaways} />

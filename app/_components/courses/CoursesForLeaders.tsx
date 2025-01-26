@@ -57,7 +57,7 @@ const CoursesForLeaders = () => {
             <p className={`text-gray-navlink mt-2 text-base md:text-lg font-semibold ${inter.className}`}>
               Empower leaders to confidently drive AI initiatives in their organizations.
             </p>
-            <ul className="list-disc mt-4 pl-5 text-gray-navlink font-medium md:text-lg">
+            <ul className="list-disc mt-4 pl-5 text-gray-navlink font-medium md:text-base">
               <li>2 packed days of live, highly interactive sessions tailored for strategic decision-makers.</li>
               <li>+Additional 3 hours of Exclusive Group Q&A after the training to address specific leadership challenges.</li>
               <li>Access to curated executive resources designed for C-suite and senior leadership.</li>
@@ -69,7 +69,7 @@ const CoursesForLeaders = () => {
               </li>
             </ul>
           </div>
-          <div className="flex mt-4">
+          <div className="flex mt-4 pl-2">
             <Link
               href="https://buy.stripe.com/6oE6pl2VZgVQ0xyfYY"
               className="bg-blue-teal hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg mr-2"
@@ -101,7 +101,7 @@ const CoursesForLeaders = () => {
             <p className={`text-gray-700 mt-2 md:text-lg font-semibold ${inter.className}`}>
               Unlock the potential of AI to streamline operations and boost profitability
             </p>
-            <ul className="list-disc mt-4 pl-5 text-gray-800 font-medium md:text-lg">
+            <ul className="list-disc mt-4 pl-5 text-gray-800 font-medium md:text-base">
               <li>2 days of practical, action-oriented sessions focused on small and medium enterprises.</li>
               <li>+Additional 3 hours of Interactive Group Q&A after the training to solve operational challenges.</li>
               <li>Access to SME-focused resources and use cases for immediate implementation.</li>
@@ -113,7 +113,7 @@ const CoursesForLeaders = () => {
               </li>
             </ul>
           </div>
-          <div className="flex mt-4">
+          <div className="flex mt-4 pl-2">
             <Link
               href="https://buy.stripe.com/bIY295gMP9tocggdQR"
               className="bg-blue-teal hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg mr-2"

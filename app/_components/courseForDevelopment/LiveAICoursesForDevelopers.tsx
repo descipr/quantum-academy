@@ -18,7 +18,7 @@ const LiveAICoursesForDevelopers = () => {
 
   const courses = [
     {
-      title: 'Applied Ai Gold Tier',
+      title: 'Applied AI Gold Tier',
       description: 'Ideal for fresh graduates and early-career developers looking to build a solid foundation in AI.',
       points: [
         '24 hours of interactive sessions.',
@@ -37,7 +37,7 @@ const LiveAICoursesForDevelopers = () => {
 
     },
     {
-      title: 'Applied Ai Platinum Tier',
+      title: 'Applied AI Platinum Tier',
       description: 'Perfect for mid-level AI developers ready to tackle intermediate challenges and advance their expertise.',
       points: [
         '28 hours of interactive sessions.',
@@ -56,7 +56,7 @@ const LiveAICoursesForDevelopers = () => {
       enrollLink: "https://buy.stripe.com/14k8xtcwzdJEa88bIM"
     },
     {
-      title: 'Applied Ai Diamond Tier',
+      title: 'Applied AI Diamond Tier',
       description: 'Designed for ambitious AI professionals aiming for senior or leadership roles in the industry.',
       points: [
         '32 hours of advanced, interactive sessions.',
@@ -76,7 +76,7 @@ const LiveAICoursesForDevelopers = () => {
       enrollLink: "https://buy.stripe.com/dR6dRNgMPfRMcggbIN"
     },
     {
-      title: 'Applied Ai Ethics',
+      title: 'Applied AI Ethics',
       description: 'Learn to design, deploy, and manage AI systems that are ethical, inclusive, and aligned with legal and societal norms.',
       points: [
         '2 immersive days of live, highly engaging sessions tailored for professionals navigating the complexities of AI ethics.',
