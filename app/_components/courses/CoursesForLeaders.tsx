@@ -35,7 +35,7 @@ const CoursesForLeaders = () => {
   }, []);
 
   return (
-    <div className="bg-white  rounded-lg shadow-md max-w-6xl w-full" id="courses" ref={containerRef}>
+    <div className="bg-white  rounded-lg shadow-md max-w-6xl w-full py-10" id="courses" ref={containerRef}>
       <h2 className={`text-3xl md:text-5xl font-semibold text-left text-gray-navlink pl-4 mb-10 ${dm_sans.className}`}>
         Live AI Courses for <span className="text-blue-teal">Leaders</span>
       </h2>
