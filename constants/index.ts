@@ -705,8 +705,6 @@ export const faqData = {
       },
     ],
   };
-
-
   // course content
 
   export const courseContent = [

@@ -15,9 +15,9 @@ const NavbarLinks: React.FC = () => {
                 </li>
             </ul>
 
-            <button className="text-blue-teal text-base font-medium border border-blue-teal rounded-md px-4 py-2 hover:bg-blue-teal hover:text-white">    
+            {/* <button className="text-blue-teal text-base font-medium border border-blue-teal rounded-md px-4 py-2 hover:bg-blue-teal hover:text-white">    
                 Log In
-            </button>
+            </button> */}
         </div>
 
     );

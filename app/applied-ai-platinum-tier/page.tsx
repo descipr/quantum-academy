@@ -63,7 +63,7 @@ const AppliedAiPlatinumTier = () => {
                     },
                 }}
                 buttonText="Enroll Now"
-                buttonLink="#"
+                buttonLink="https://buy.stripe.com/14k8xtcwzdJEa88bIM"
             />
             <WhoShouldTakeThisCourse heading="Who This Course Is For" data={PlatinumTierData} />
             <BuildingSkills heading={platinumTakeawaysContent.heading} takeaways={platinumTakeawaysContent.takeaways} />

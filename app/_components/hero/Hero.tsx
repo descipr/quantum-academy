@@ -1,13 +1,36 @@
 'use client';
 import { useRef } from "react";
 import { gsap } from "gsap";
-import Image from "next/image";
-import { HeroImage } from "@/utils";
+import Image, { StaticImageData } from "next/image";
 import { useGSAP } from "@gsap/react";
 import { dm_sans, inter } from "@/app/font";
 import Link from "next/link";
 
-const Hero = ({ text, heading, link }: { text: string, heading:string, link:string }) => {
+interface HeroProps {
+  imageSrc: StaticImageData;
+  imageAlt: string;
+  heading: string;
+  text: string;
+  batchInfo: string;
+  primaryLink: {
+    href: string;
+    label: string;
+  };
+  secondaryLink: {
+    href: string;
+    label: string;
+  };
+}
+
+const Hero = ({
+  imageSrc,
+  imageAlt,
+  heading,
+  text,
+  batchInfo,
+  primaryLink,
+  secondaryLink,
+}: HeroProps) => {
   const imageRef = useRef<HTMLDivElement | null>(null);
   const textRef = useRef<HTMLDivElement | null>(null);
 
@@ -28,20 +51,22 @@ const Hero = ({ text, heading, link }: { text: string, heading:string, link:stri
 
   return (
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center px-6 gap-4 bg-white mt-4">
+      {/* Image Section */}
       <div
         ref={imageRef}
         className="w-full md:w-1/2 flex justify-center items-center"
       >
         <Image
-          src={HeroImage}
-          alt="AI for Leaders"
-          className="md:w-[436px] md:h-[406px] w-[300px] h-[300px] object-cover rounded-md"
+          src={imageSrc}
+          alt={imageAlt}
+          className="md:w-[436px] md:h-[406px] w-full h-[300px] object-cover rounded-md"
           width={430}
           height={405}
           priority
         />
       </div>
 
+      {/* Text Section */}
       <div
         ref={textRef}
         className="w-full md:w-1/2 flex flex-col items-start justify-start space-y-6"
@@ -54,7 +79,7 @@ const Hero = ({ text, heading, link }: { text: string, heading:string, link:stri
 
         <div>
           <p
-            className={`text-base md:text-lg text-gray-600 text-justify ${inter.className}`}
+            className={`text-base md:text-lg text-gray-navlink font-semibold text-justify ${inter.className}`}
           >
             {text}
           </p>
@@ -63,17 +88,27 @@ const Hero = ({ text, heading, link }: { text: string, heading:string, link:stri
         <p
           className={`text-lg font-medium text-blue-teal ${inter.className}`}
         >
-          Next batch starts from 25th January, 2025
+          {batchInfo}
         </p>
         <div
           className={`flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4 w-full ${inter.className}`}
         >
-          <Link href={link} className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition">
-            Enroll Now
-          </Link >
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSczIJmMx9GqFKUqs8-PqsxEfVhqXWYwZlo-kPWkiOoUavFY5A/viewform?usp=header "  target ="_blank" className="border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition">
-            Request a callback
-          </Link >
+          {/* Primary Link */}
+          <Link
+            href={primaryLink.href}
+            className="bg-blue-teal text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition text-center"
+          >
+            {primaryLink.label}
+          </Link>
+          
+          {/* Secondary Link */}
+          <Link
+            href={secondaryLink.href}
+            target="_blank"
+            className="border-2 border-blue-teal text-blue-teal px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-600 hover:text-white transition text-center"
+          >
+            {secondaryLink.label}
+          </Link>
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ const FAQ: React.FC<FAQProps> = ({ heading, faqs }) => {
   }, []);
 
   return (
-    <div ref={faqRef} className="max-w-6xl w-full mx-auto px-4 py-8">
+    <div ref={faqRef} className="max-w-6xl w-full mx-auto px-6 py-8">
       <h1 className={`text-3xl md:text-5xl font-bold text-left mb-10 ${dm_sans.className}`}>
         {heading}
       </h1>

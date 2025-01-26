@@ -8,5 +8,7 @@ import intermediate from "@/public/AI_Intermediate.jpg"
 import advanced from "@/public/AI_Advanced.jpg"
 import Gold_tier from "@/public/gold_tier.jpg";
 import platinum_tier from "@/public/Platinum_Tier.jpg"
+import daimond_tier from "@/public/Diamond_Tier.jpg";
+import ethics from "@/public/ai_ethics.webp"
 
-export { headerLogo, HeroImage, Bart_mentor, tanoy_mentor, Ai_for_leaders_course, foundation, intermediate, advanced, Gold_tier, platinum_tier };
+export { headerLogo, HeroImage, Bart_mentor, tanoy_mentor, Ai_for_leaders_course, foundation, intermediate, advanced, Gold_tier, platinum_tier, daimond_tier, ethics };

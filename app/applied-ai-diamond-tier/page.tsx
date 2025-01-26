@@ -1,4 +1,4 @@
-import { platinum_tier } from "@/utils";
+import { daimond_tier, platinum_tier } from "@/utils";
 import TierHero from "../_components/hero/TierHero";
 import WhoShouldTakeThisCourse from "../_components/whyCourse/WhoShouldTakeThisCourse";
 import { courseStructureDataDaimond,  daimondCaseStudiesData, daimondFaqData, daimondTakeawaysContent, DaimondTierData } from "@/constants";
@@ -48,7 +48,7 @@ const AppliedAiDaimondTier = () => {
     return (
         <main className="flex flex-col gap-8 md:gap-16 bg-white">
             <TierHero
-                imageSrc={platinum_tier}
+                imageSrc={daimond_tier}
                 altText="Applied AI Diamond Tier"
                 title="Applied AI Diamond Tier"
                 highlightText="Build AI Mastery"
@@ -63,7 +63,7 @@ const AppliedAiDaimondTier = () => {
                     },
                 }}
                 buttonText="Enroll Now"
-                buttonLink="#"
+                buttonLink="https://buy.stripe.com/dR6dRNgMPfRMcggbIN"
             />
             <WhoShouldTakeThisCourse heading="Who This Course Is For" data={DaimondTierData} />
             <BuildingSkills heading={daimondTakeawaysContent.heading} takeaways={daimondTakeawaysContent.takeaways} />

@@ -62,7 +62,7 @@ const AppliedAiGoldTier = () => {
                     },
                 }}
                 buttonText="Enroll Now"
-                buttonLink="#"
+                buttonLink="https://buy.stripe.com/4gw4hdbsv7lg6VWdQT"
             />
             <WhoShouldTakeThisCourse heading="Who This Course Is For" data={GoldTierData} />
             <BuildingSkills heading={GoldTakeawaysContent.heading} takeaways={GoldTakeawaysContent.takeaways} />

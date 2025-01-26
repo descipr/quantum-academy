@@ -44,11 +44,11 @@ const CourseContent: React.FC<CourseContentProps> = ({data}) => {
 
     return (
         <div className="bg-white py-10  max-w-6xl mx-auto w-full  px-6">
-            <h2 className={`text-3xl md:text-5xl font-bold text-left mb-10 ${dm_sans.className}`}>
+            <h2 className={`text-3xl md:text-5xl font-semibold text-left mb-10 ${dm_sans.className}`}>
                 Course Content
             </h2>
             <div
-                className="flex flex-col  space-y-6"
+                className="flex flex-col space-y-6"
                 ref={containerRef}
             >
                 {data.map((content, index) => (
@@ -79,7 +79,7 @@ const CourseContent: React.FC<CourseContentProps> = ({data}) => {
                             <h3 className={`text-lg md:text-2xl font-semibold  text-blue-teal ${dm_sans.className}`}>
                                 {content.title}
                             </h3>
-                            <p className={`text-sm md:text-lg text-gray-600 ${inter.className}`}>
+                            <p className={`text-base md:text-lg text-gray-navlink ${inter.className}`}>
                                 {content.description}
                             </p>
                         </div>

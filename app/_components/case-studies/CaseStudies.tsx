@@ -52,7 +52,7 @@ const CaseStudies: React.FC<CaseStudiesProps> = ({ heading, caseStudies }) => {
         {caseStudies.map((caseStudy) => (
           <div key={caseStudy.id} className="flex items-start space-x-4 w-full">
             <div
-              className="w-12 h-12 bg-blue-200 flex items-center justify-center"
+              className="w-12 h-12 bg-gray-square flex items-center justify-center"
               style={{ minWidth: "3rem", minHeight: "3rem" }}
             >
               <span className="text-lg font-bold text-gray-700">{caseStudy.id}</span>

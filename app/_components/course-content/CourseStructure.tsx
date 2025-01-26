@@ -55,7 +55,7 @@ const CourseStructure: React.FC<CourseStructureProps> = ({
           <div key={item.id} className="flex items-center mb-8 last:mb-0">
             <div className="relative">
               <div
-                className={`w-14 h-14 bg-[#DAE0F1] flex items-center justify-center text-gray-800 text-2xl font-bold rounded ${dm_sans.className}`}
+                className={`w-14 h-14 bg-gray-square flex items-center justify-center text-gray-800 text-xl md:text-2xl font-bold rounded ${dm_sans.className}`}
               >
                 {item.id}
               </div>
@@ -67,11 +67,11 @@ const CourseStructure: React.FC<CourseStructureProps> = ({
             <div className="top-full w-[30px] md:w-[50px] h-[4px] bg-[#DAE0F1]"></div>
 
             <div className="ml-4">
-              <h3 className={`text-xl md:text-2xl font-semibold text-gray-800 ${inter.className}`}>
+              <h3 className={`text-lg md:text-2xl font-semibold text-gray-800 ${inter.className}`}>
                 {item.title}
               </h3>
               {Array.isArray(item.description) ? (
-                <ul className="list-disc list-inside text-gray-600 text-lg md:text-xl">
+                <ul className="list-disc list-inside text-gray-600 text-base md:text-xl">
                   {item.description.map((point, idx) => (
                     <li key={idx}>{point}</li>
                   ))}

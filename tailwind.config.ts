@@ -18,6 +18,7 @@ const config: Config = {
 
         gray:{
           navlink: "#464646",
+          square:"#DAE0F1",
         }
       },
 

@@ -63,7 +63,7 @@ const TierHero: React.FC<TierHeroProps> = ({
         <Image
           src={imageSrc}
           alt={altText}
-          className="w-[300px] h-[300px] md:w-[400px] md:h-[500px] object-cover rounded-md"
+          className="w-full h-full md:w-[400px] md:h-[500px] object-cover rounded-md"
           width={400}
           height={400}
           priority
@@ -78,7 +78,7 @@ const TierHero: React.FC<TierHeroProps> = ({
         <h1 className={`text-3xl md:text-5xl font-medium text-black ${dm_sans.className}`}>
           {title}: <span className="text-blue-teal">{highlightText}</span>
         </h1>
-        <p className={`text-base md:text-lg text-black-para font-semibold text-justify ${inter.className}`}>
+        <p className={`text-base md:text-lg text-gray-navlink font-semibold text-justify ${inter.className}`}>
           {description}
         </p>
         <ul className="space-y-2 text-base md:text-lg text-black-para font-semibold">

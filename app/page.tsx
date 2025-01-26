@@ -9,14 +9,14 @@ import Reviews from "./_components/whyCourse/Reviews";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center gap-8 md:gap-16">
+    <main className="flex flex-col items-center justify-center gap-8 md:gap-16 ">
       <MainHero />
       <QuantumAcademy />
       <CoursesForLeaders />
       <LiveAICoursesForDevelopers />
       <MeetYourMentors />
       <Reviews />
-      {/* <Contact /> */}
+      <Contact />
     </main>
   );
 }
