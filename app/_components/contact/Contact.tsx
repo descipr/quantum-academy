@@ -26,24 +26,22 @@ function Contact() {
           Start Your AI Journey Today!
         </h2>
         <div className="flex gap-4">
-          {/* Contact Us Button */}
-          
           {/* Email Button */}
-          <button
-            className="flex items-center gap-2 bg-blue-teal text-white  font-bold py-2 px-6 rounded"
-            onClick={() => (window.location.href = "bart.pietruszka@refocus-ai.com")}
+          <a
+            href="mailto:bart.pietruszka@refocus-ai.com"
+            className="flex items-center gap-2 bg-blue-teal text-white font-bold py-2 px-6 rounded"
           >
             <MdEmail size={20} /> Email us
-          </button>
+          </a>
           {/* WhatsApp Button */}
-          <button
+          <a
+            href="https://wa.me/+971569553558"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded"
-            onClick={() =>
-              window.open("https://wa.me/+971569553558 ", "_blank") // Replace with your WhatsApp number
-            }
           >
             <FaWhatsapp size={20} /> WhatsApp
-          </button>
+          </a>
         </div>
       </div>
     </div>
