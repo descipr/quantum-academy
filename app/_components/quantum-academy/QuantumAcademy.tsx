@@ -34,7 +34,7 @@ const QuantumAcademy = () => {
 
     return (
         <div className="py-10 px-6 bg-white max-w-6xl mx-auto w-full ">
-            <h2 className={`text-3xl md:text-5xl font-se text-left mb-12 ${dm_sans.className}`}>
+            <h2 className={`text-3xl md:text-5xl font-semibold text-left mb-12 ${dm_sans.className}`}>
                 Experience the Quantum Academy Difference
             </h2>
             <div
@@ -71,7 +71,7 @@ const QuantumAcademy = () => {
                         className="flex items-center mx-auto  mb-8 last:mb-0"
                     >
                         <div className="relative">
-                            <div className={`w-14 h-14 bg-[#DAE0F1] flex items-center justify-center text-gray-800 text-2xl font-bold rounded ${dm_sans.className}`}>
+                            <div className={`w-14 h-14 bg-gray-square flex items-center justify-center text-gray-800 text-lg md:text-2xl font-semibold rounded ${dm_sans.className}`}>
                                 {item.id}
                             </div>
                             {index !== 5 && (
@@ -82,10 +82,10 @@ const QuantumAcademy = () => {
                         <div className="top-full w-[30px] md:w-[50px] h-[4px] bg-[#DAE0F1]"></div>
 
                         <div className="ml-4">
-                            <h3 className={`text-xl md:text-2xl font-semibold text-blue-teal  ${inter.className}`}>
+                            <h3 className={`text-lg md:text-2xl font-semibold text-blue-teal  ${inter.className}`}>
                                 {item.title}
                             </h3>
-                            <p className={`text-gray-600 text-lg md:text-xl`}>{item.description}</p>
+                            <p className={`text-gray-navlink font-medium md:text-lg `}>{item.description}</p>
                         </div>
                     </div>
                 ))}

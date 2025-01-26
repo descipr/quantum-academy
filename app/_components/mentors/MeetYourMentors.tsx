@@ -60,13 +60,13 @@ const MeetYourMentors: React.FC = () => {
     }, []);
 
     return (
-        <div className="py-10 px-6 bg-white max-w-6xl mx-auto flex flex-col ">
+        <div className="py-10 px-4 bg-white max-w-6xl mx-auto flex flex-col ">
             <h2
                 className={`text-3xl md:text-5xl font-bold text-left mb-10 ${dm_sans.className}`}
             >
                 Meet the Trainers/Mentors
             </h2>
-            <div className="flex flex-col items-center justify-center mx-auto">
+            <div className="flex flex-col items-center justify-center ">
                 <div
                     className="grid gap-8 md:grid-cols-2 lg:grid-cols-2"
                     ref={containerRef}
@@ -74,7 +74,7 @@ const MeetYourMentors: React.FC = () => {
                     {mentors.map((mentor, index) => (
                         <div
                             key={index}
-                            className="flex flex-col items-start text-center shadow-lg rounded-lg bg-white p-6"
+                            className="flex flex-col items-start text-center shadow-lg rounded-lg bg-white "
                         >
                             <div className="w-full h-64 relative mb-4">
                                 <Image
@@ -104,8 +104,8 @@ const MeetYourMentors: React.FC = () => {
                         </div>
                     ))}
                 </div>
-                <div className="mt-4">
-                    <Link href="https://calendly.com/bartekpietruszka" target="_blank" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mr-2 mx-auto ">
+                <div className="mt-8 md:mt-16">
+                    <Link href="https://calendly.com/bartekpietruszka" target="_blank" className="bg-blue-teal hover:bg-blue-700 text-white font-bold py-4 px-4 rounded-lg mr-2 mx-auto ">
                         Schedule a 1:1 connect
                     </Link>
                 </div>
