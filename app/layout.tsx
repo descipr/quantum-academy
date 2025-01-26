@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${dm_sans.className} antialiased bg-[#F5F5F5]  pt-[65px] md:pt-[88px]`}
+        className={`${inter.className} ${dm_sans.className} antialiased bg-[#F5F5F5]  md:pt-[88px]`}
       >
         <Navbar />
         {children}
