@@ -123,7 +123,7 @@ const LiveAICoursesForDevelopers = () => {
 
   return (
     <div
-      className="bg-white rounded-lg shadow-md max-w-6xl mx-auto w-full"
+      className="bg-white rounded-lg py-10 shadow-md max-w-6xl mx-auto w-full"
       ref={containerRef}
     >
       <h2
