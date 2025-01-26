@@ -10,7 +10,7 @@ interface MobileMenuButtonProps {
 const MobileMenuButton: React.FC<MobileMenuButtonProps> = ({ onClick }) => {
     return (
         <button className="absolute right-2 top-4" onClick={onClick}>
-            <FontAwesomeIcon className="text-2xl text-black-primary z-50" icon={faBars} />
+            <FontAwesomeIcon className="text-2xl text-black z-50" icon={faBars} />
         </button>
     )
 }

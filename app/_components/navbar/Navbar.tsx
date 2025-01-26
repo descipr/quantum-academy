@@ -23,9 +23,11 @@ const Navbar: React.FC = () => {
             </nav>
 
             <nav className="md:hidden fixed top-0 left-0 flex items-center justify-between mb-4 z-50 w-full pr-4 bg-white">
-                <LogoLink />
-                {!isDrawerOpen && <MobileMenuButton onClick={handleDrawerToggle} />}
-                <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
+                <div className='w-full relative'>
+                    <LogoLink />
+                    {!isDrawerOpen && <MobileMenuButton onClick={handleDrawerToggle} />}
+                    <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
+                </div>
             </nav>
         </>
     );
