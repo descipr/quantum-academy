@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
-import { HeroImage } from "@/utils";
+import { HeroImage, main_hero } from "@/utils";
 import { useGSAP } from "@gsap/react";
 import { dm_sans, inter } from "@/app/font";
 import Link from "next/link";
@@ -35,7 +35,7 @@ const MainHero = () => {
                 className="w-full md:w-1/2 flex justify-center items-center"
             >
                 <Image
-                    src={HeroImage}
+                    src={main_hero}
                     alt="AI for Leaders"
                     className="md:w-[436px] md:h-[406px] w-full h-[300px] object-cover rounded-md"
                     width={430}

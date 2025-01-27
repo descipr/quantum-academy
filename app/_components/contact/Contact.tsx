@@ -28,7 +28,7 @@ function Contact() {
         <div className="flex gap-4">
           {/* Email Button */}
           <a
-            href="mailto:bart.pietruszka@refocus-ai.com"
+            href="mailto:hello@quantum-academy.ai "
             className="flex items-center gap-2 bg-blue-teal text-white font-bold py-2 px-6 rounded"
           >
             <MdEmail size={20} /> Email us
