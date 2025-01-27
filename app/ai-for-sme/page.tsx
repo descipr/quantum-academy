@@ -8,6 +8,11 @@ import KeyTakeaways from "../_components/keytake-away/KeyTakeaways";
 import Mentors from "../_components/mentors/Mentors";
 import WhoShouldTakeThisCourse from "../_components/whyCourse/WhoShouldTakeThisCourse";
 import { tanoy_mentor } from "@/utils";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title:"Ai For Sme"
+  }
 
 const AiForBusinessLeaders = () => {
     return (

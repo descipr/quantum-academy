@@ -8,6 +8,11 @@ import CourseBenefits from "../_components/course-content/CourseBenefits";
 import CourseStructure from "../_components/course-content/CourseStructure";
 import FAQ from "../_components/faq/FAQ";
 import { bart_ethics, HeroImage } from "@/utils";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title:"AI For Ethics"
+  }
 
 const AiForEthics = () => {
     return (

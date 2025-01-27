@@ -8,6 +8,11 @@ import KeyTakeaways from "../_components/keytake-away/KeyTakeaways";
 import Mentors from "../_components/mentors/Mentors";
 import WhoShouldTakeThisCourse from "../_components/whyCourse/WhoShouldTakeThisCourse";
 import { Ai_for_leaders_course, HeroImage } from "@/utils";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title:"Ai For Business Leaders"
+  }
 
 const AiForBusinessLeaders = () => {
     return (

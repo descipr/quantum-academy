@@ -5,8 +5,21 @@ import { dm_sans, inter } from "./font";
 
 
 export const metadata: Metadata = {
-  title: "Quantum Academy",
+  title: {
+    default:"Quantum Academy",
+    template:"%s-Quantum Academy"
+  },
   description: "Elevate Your AI Expertise with Live, Interactive Learning",
+  twitter:{
+    card:"summary_large_image",
+  },
+  openGraph:{
+    images: [
+      {
+        url:"/app/opengraph-image.png"
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
