@@ -9,7 +9,7 @@ import QuantumAcademy from "./_components/quantum-academy/QuantumAcademy";
 import Reviews from "./_components/whyCourse/Reviews";
 
 export const metadata: Metadata = {
-  title:"Home Page"
+  title:"Quantum Academy"
 }
 export default function Home() {
   return (
